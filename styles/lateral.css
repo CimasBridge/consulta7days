@@ -1,0 +1,72 @@
+.barra__lateral {
+    display: none;
+    
+}
+
+@media screen and (min-width: 1440px) {
+.barra__lateral{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 13%;
+    border-right: 1px solid;
+    border-color: var(--borda-cinza);
+    background-color: var(--branco-principal);
+
+}
+    
+.lateral__icone-nome {
+    color: var(--cinza-escuro);
+}
+
+
+.lateral__container {
+    margin: 2em auto 2rem 1rem;
+}
+
+.lateral__lista {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    
+}
+
+.lateral__lista-link {
+    display: flex;
+    color: var(--cinza-escuro);
+    gap: 0.5rem;
+    align-items: center;
+
+}
+
+
+.lateral__icone-nome {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.nome-selecionado {
+    color: var(--azul-principal);
+}
+
+.lateral__icone {
+    height: 2rem;
+    width: 2rem;
+}
+
+.botao__azul {
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+}

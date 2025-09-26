@@ -1,0 +1,131 @@
+.formulario {
+    display: none;
+}
+
+    .btn-laranja:active {
+        background-color: var(--btn-laranja-active);
+    }
+
+        .btn-branco:active {
+        background-color: var(--btn-branco-active);
+
+    }
+
+        .btn-send-hover:active {
+        background-color: var(--btn-azul-active);
+        transition: 0.2s;
+    }
+
+@media screen and (min-width: 1440px) {
+
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+    .formulario__container {
+        background-color: var(--branco-principal);
+        box-shadow: var(--sombra-principal);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 10rem;
+    }
+
+    .formulario__preencher {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .formulario__caixa-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .formulario__consulta {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .btn-send {
+        background-color: var(--azul-principal);
+        padding: 1rem 6rem;
+        color: var(--branco-principal);
+        cursor: pointer;
+    }
+
+    .btn-send-hover:hover {
+        background-color: var(--btn-azul-hover);
+        transition: 0.2s;
+    }
+
+    .btn-send-hover:active {
+        background-color: var(--btn-azul-active);
+        transition: 0.2s;
+    }
+
+    .caixa__tipo-box {
+        color: var(--cinza-escuro);
+
+    }
+
+    .caixa-titulo {
+        color: var(--cinza-escuro);
+        font-size: 18px;
+    }
+    
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background: none;
+    }
+
+    input[type="date"] {
+        color: var(--cinza);
+    }
+
+    input[type="time"] {
+        color: var(--cinza);
+    }
+
+    input[type="time"]::-webkit-calendar-picker-indicator {
+        background: none;
+    }
+
+
+    input[type="button"] {
+        font-size: 20px;
+        font-weight: 600;
+   
+    }
+
+    .caixa-nome, .caixa-data, .caixa-hora {
+        padding: 1rem;
+    }
+
+    .btn-laranja:hover  {
+        background-color: var(--btn-laranja-hover);
+        transition: 0.2s;
+    }
+
+    .btn-laranja:active {
+        background-color: var(--btn-laranja-active);
+    }
+    
+    .btn-branco:hover {
+        background-color: var(--btn-branco-hover);
+        transition: 0.2s;
+    }
+
+    .btn-branco:active {
+        background-color: var(--btn-branco-active);
+
+    }
+
+}

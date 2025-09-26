@@ -1,0 +1,183 @@
+.consultas{
+    display: flex;
+    flex-direction: column;
+}
+
+.consultas__titulo {
+    display: block;
+    padding: 0.5rem 1rem ;
+    width: auto;
+    background-color: var(--branco-principal);
+}
+
+.consultas__data {
+    font-weight: 700;
+}
+
+.consultas__container {
+    background-color: var(--branco-principal);
+    border-radius: 8px;
+    margin: 0 1rem;
+    box-shadow: var(--sombra-principal);
+    margin-bottom: 1rem;
+}
+
+.consultas__consulta-profissional {
+    padding: 1rem;
+    border-bottom: 1px solid;
+    border-color: var(--borda-cinza);
+}
+
+.profissional {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profissional-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nome-profissional {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.consulta-local {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.consulta-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto__profissional {
+    width: 12%;
+}
+
+.consultas__consulta-horario {
+    padding: 0.8rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.consulta__hora {
+    font-size: 12px;
+}
+
+.consulta__botoes {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+}
+
+.consulta__video {
+    background-color: var(--laranja-principal);
+    color: var(--branco-principal);
+}
+
+
+.consulta__audio {
+    border: 1px solid;
+    border-color: var(--borda-cinza);
+    color: var(--cinza-escuro);
+}
+
+.consulta__video, .consulta__audio {
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+.consulta__botao-endereco {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.consulta__endereco {
+    border-radius: 8px;
+    padding: 1rem 6.7rem;
+    color: var(--branco-principal);
+    background-color: var(--azul-principal);
+    font-size: 14px;
+}
+
+.consulta-ajuste {
+    margin-top: 1rem;
+}
+
+.transparente-titulo {
+    background-color: var(--branco-secundario);
+}
+
+@media screen and (min-width: 768px) {
+    .consultas__lista  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .consultas{
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta__botoes {
+    display: flex;
+    gap: 1%;
+}
+
+.consulta__hora {
+    font-size: 14px;
+}
+
+
+.consultas__lista  {
+       display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 2rem;
+    padding: 3rem;
+
+}
+
+.consultas__container{
+    width:  84%;
+    margin: 0;
+}
+
+.nome-profissional {
+    font-size: 18px;
+
+}
+
+.consulta__audio, .consulta__video {
+    font-size: 16px;
+    padding: 4% 4%;
+    text-wrap: nowrap;
+}
+
+.consulta__endereco { 
+    padding: 5% 35%;
+    text-wrap: nowrap
+}
+
+.consultas__consulta-horario {
+    padding: 1rem 1.4rem 1.4rem 1.4rem;
+ 
+}
+
+}
+
