@@ -1,0 +1,59 @@
+@import url("reset.css");
+@import url("./styles/cabecalho.css");
+@import url("./styles/consultas.css");
+@import url("./styles/rodape.css");
+@import url("./styles/lateral.css");
+@import url("./styles/formulario.css");
+
+:root {
+    --branco-principal: #ffffff;
+    --cinza-escuro: #464646;
+    --cinza: #A3A3A3;
+    --laranja-principal: #FFB050;
+    --azul-principal: #4894FF;
+    --sombra-principal: 0 4px 4px 0 rgba( 0, 0 ,0 ,25%);
+    --fonte-principal: "Montserrat", sans-serif;
+    --fundo-principal: #EFF0F4;
+    --borda-cinza: #ECECEC;
+    --branco-secundario: rgba(255, 255, 255, 0.3);
+    --btn-azul-hover: #4081db;
+    --btn-azul-active: #26508a;
+    --btn-laranja-hover: #c98b40;
+    --btn-laranja-active: #94662e;
+    --btn-branco-hover: #dddddd;
+    --btn-branco-active: #b9b9b9;
+}
+
+body {
+    background-color: var(--fundo-principal);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+}
+
+.perfil {
+    border-radius: 50%;
+}
+
+.link_reset {
+    text-decoration: none;
+}
+.input_reset {
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    box-shadow: var(--sombra-principal);
+    border-radius: 8px;
+    font-family: var(--fonte-principal);
+}
+
+
+@media screen and (min-width: 1440px) {
+    
+
+.container {
+    margin-left: 13%;
+}
+
+}
